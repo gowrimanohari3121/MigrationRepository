@@ -10,9 +10,9 @@ namespace AdditionProgram
     {
         public int sum(int n1, int n2)
         {
-            int c;
-            c = n1 + n2;
-            return c;
+            int d;
+            d = n1 + n2;
+            return d;
         }
 
         public static void Main(string[] args)
