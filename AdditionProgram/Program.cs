@@ -19,11 +19,11 @@ namespace AdditionProgram
         {
             SampleProgram sp = new SampleProgram();
             Console.WriteLine("enter the number");
-            int a = int.Parse(Console.ReadLine());
+            int x = int.Parse(Console.ReadLine());
 
             Console.WriteLine("enter the number");
-            int b = int.Parse(Console.ReadLine());
-            Console.WriteLine("the number is:{0}", sp.sum(a, b));
+            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine("the number is:{0}", sp.sum(x, y));
 
         }
     }
